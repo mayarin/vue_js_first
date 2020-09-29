@@ -1,6 +1,7 @@
 version: '3'
 services:
   app:
+    image: mayatan/vue_js_first
     build: .
     ports:
       - 9050:9050
